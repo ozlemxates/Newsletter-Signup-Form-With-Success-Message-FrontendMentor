@@ -1,0 +1,105 @@
+@font-face {
+    font-family:R-regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:R-bold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+:root {
+
+
+--tomato: hsl(4, 100%, 67%);
+--dark-slate-grey: hsl(234, 29%, 20%);
+--charcoal-grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:R-regular;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100dvb;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--charcoal-grey);   
+}
+
+main {
+    display: flex;
+    background-color: var(--White);
+    border-radius: 2rem;
+}
+
+section {
+    padding: 5rem 4rem;
+    color: var(--dark-slate-grey);
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: R-bold;
+    margin: 2rem 0;
+}
+
+p {
+    width: 26rem;
+    margin: 1rem 0;
+}
+
+.list {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+h5 {
+    margin:1rem 0 0.5rem 0;
+}
+
+input {  
+    display: block;
+    width: 23rem;
+    height: 3rem;
+    padding: 1rem;
+    outline: 0.5px solid var(--Grey);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    width: 23rem;
+    height: 3rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: var(--dark-slate-grey);
+    color: var(--White);
+    font-family: R-bold;
+    font-size: 1rem;
+}
+
+/******************** aside başlangıç****************** */
+aside {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
