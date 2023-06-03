@@ -31,7 +31,8 @@ body {
     height: 100dvb;
     justify-content: center;
     align-items: center;
-    background-color: var(--charcoal-grey);   
+    background-color: var(--charcoal-grey); 
+    gap: 2rem;  
 }
 
 main {
