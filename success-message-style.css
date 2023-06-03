@@ -29,7 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--charcoal-grey); 
-    /* gap: 2rem;   */
 }
 
 main {
