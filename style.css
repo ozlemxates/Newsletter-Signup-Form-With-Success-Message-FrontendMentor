@@ -26,7 +26,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100dvb;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: var(--charcoal-grey); 
@@ -100,6 +100,10 @@ aside {
     padding: 1rem 1rem 1rem 0;
 }
 
+#img-2 {
+    display: none;
+}
+
 .attribution { 
     font-size: 11px;
     text-align: center; 
@@ -107,4 +111,52 @@ aside {
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column-reverse;
+        width: 23.4rem;
+        height: max-content;
+    }
+
+    section {
+        padding: 0rem 1rem;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        width: 20rem;
+    }
+
+    h5 {
+        margin: 2rem 0 1rem 0;
+    }
+
+    input {
+        width: 20rem;
+    }
+
+    button {
+        width: 20rem;
+    }
+
+    aside {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #img-1 {
+        display: none;
+    }
+
+    #img-2 {
+        display: block;
+        width: max-content;
+    }
 }
